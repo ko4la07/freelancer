@@ -1,3 +1,19 @@
-/*
- * Estilos de tu proyecto
- */
+/* Seccion 3 */ 
+
+.containerAll{
+    text-align: center;
+}
+ .textFreelancer {
+    display: inline-block;
+    width: 60%;
+ }
+
+ /* h1{
+     font-family: Lato;
+ } */
+
+ p {
+     font-family: Lato;
+ }
+
+ 
