@@ -83,3 +83,44 @@
    margin: 30px;
  }
 
+/* Seccion 3 */ 
+
+.containerAll{
+    text-align: center;
+    background: #18bc9c;
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+ .textFreelancer {
+    display: inline-flex;
+    width: 60%;
+ }
+
+ .title{
+     font-family: Montserrat ;
+     color: white;
+     font-size: 40px;
+     margin-bottom: 0;
+ }
+
+ .text{
+     font-family: Lato ;
+     color: white;
+ }
+
+ h2{
+     color: white;
+     margin-top: 0;
+ }
+
+ .btnDownload{
+    border-style: solid;
+    border-color: white;
+    border-radius: 3px;
+    color: white;
+    background: #18bc9c;
+    height: 30px;
+    width: 150px;
+    margin-top: 30px;
+ }
+
