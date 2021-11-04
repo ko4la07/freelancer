@@ -1,3 +1,60 @@
+* { 
+  margin:0px; 
+  padding:0px; 
+  box-sizing:border-box; 
+}
 /*
- * Estilos de tu proyecto
+ * Nav
  */
+ nav {
+  background-color: #2c3e50;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 80px;
+  font-family: 'Montserrat', sans-serif;
+ }
+ nav span {
+  margin: 30px 70px;
+  font-size: 25px;
+ }
+ .nav-link {
+  margin: 30px 100px 30px 30px;
+  display: flex;
+  justify-content: flex-end;
+ }
+ .nav-link a {
+   margin: 0px 10px;
+ }
+
+ /*
+ * profile
+ */
+ .section-profile {
+   background-color: #18bc9c;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   height: 600px;
+   color: white;
+  font-family: 'Montserrat', sans-serif;
+ }
+ .section-profile h1 {
+   font-size: 75px;
+ }
+ .section-profile div {
+   font-size: 40px;
+   font-weight: bold;
+   margin-bottom: 15px;
+ }
+ .section-profile p {
+   font-size: 22px;
+ }
+ .section-profile img {
+   height: 250px;
+   width: 250px;
+   display: flex;
+   align-self: center;
+   margin: 30px;
+ }
