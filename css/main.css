@@ -1,3 +1,55 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containerContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat;
+}
+
+.titleH1 span {
+    display: flex;
+    justify-content: center;
+}
+
+.titleH1 h1 {
+    color: #212529;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.containerForm {
+    width: 50%;
+}
+
+.inputName,
+.inputEmail,
+.inputPhone,
+.inputMessage {
+    padding: 1rem 0;
+    margin: 0.3rem;
+    border: none;
+    border-bottom:1px solid #C8C2BC;
+    width: 100%;
+    color: #888e9b;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.second {
+    padding-bottom: 5rem;
+}
+
+.btn {
+    color: white;
+    background-color: #18bc9c;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-weight: bold;
+}
